@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    background: hsl(216, 50%, 16%);
+    height: 14cm;
+    width: 8cm;
+    border-radius: 15px;
+}
+
+img {
+    height: 7cm;
+    width: 7cm;
+    border-radius: 10px;
+}
+
+.text1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding: 10px 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+.text1:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.images {
+    text-align: center;
+    padding: 15px;
+}
+
+.text2 {
+    color: hsl(215, 51%, 70%);
+    padding: 10px 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin: 0px 22px;
+    line-height: 60px;
+}
+
+.text5 {
+    display: flex;
+    align-items: center;
+    padding: 15px 22px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.text5 img {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-right: 15px;
+   
+}
+
+.text5 span {
+    color: hsl(0, 0%, 100%);
+    margin-left: 5px;
+}
+.text5 span:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.text3 {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.text4 {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    padding-right: 5px;
+}
+
+.text3 svg,
+.text4 svg {
+    margin-right: 5px;
+}
+.view{
+    background-color: hsl(178, 100%, 50%,40%);
+    height: 7cm;
+    width: 7cm;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(1.1%,-101.1%);
+    opacity: 0;
+}
+.view svg{
+    transform:translate(-0%,210%);
+}
+.view:hover{
+    opacity: 1;
+    cursor: pointer
+}
